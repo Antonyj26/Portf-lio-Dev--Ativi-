@@ -1,0 +1,67 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  padding: 72px 120px 120px 144px;
+
+  align-items: center;
+  height: 917px;
+  background-color: var(--color-gray-200);
+
+  header {
+    text-align: center;
+
+    h1 {
+      color: var(--brand-color-red);
+      font-family: Inconsolata;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 120%;
+    }
+
+    h3 {
+      color: var(--color-gray-600);
+      font-family: Asap;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 120%;
+      margin-top: 8px;
+      margin-bottom: 56px;
+    }
+  }
+}
+
+.flex1 {
+  height: 584px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1040px;
+  justify-content: center;
+  gap: 24px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 12px;
+  width: 330px;
+
+  background-color: var(--color-gray-300);
+
+  h2 {
+    color: var(--color-gray-600);
+    font-family: Asap;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 8px;
+    margin-top: 24px;
+  }
+
+  p {
+    font: var(--tex-sm);
+    color: var(--color-gray-500);
+  }
+}
